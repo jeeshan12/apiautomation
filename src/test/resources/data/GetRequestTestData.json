@@ -1,0 +1,9 @@
+{
+	"getRequest": [
+		{
+			"path": "/api/users?page=2",
+			"totalPage": "2",
+			"totalID": "6"
+		}
+	]
+}
