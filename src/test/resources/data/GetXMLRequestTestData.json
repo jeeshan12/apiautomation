@@ -1,0 +1,8 @@
+{
+	"getxmlRequest": [
+		{
+			"path": "/app/videogames",
+			"fourthGameName": "Super Mario 64"
+		}
+	]
+}

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3598" started-at="2020-01-03T15:47:27Z" finished-at="2020-01-03T15:47:30Z">
+  <suite name="Default suite" duration-ms="3881" started-at="2020-01-03T19:41:35Z" finished-at="2020-01-03T19:41:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3598" started-at="2020-01-03T15:47:27Z" finished-at="2020-01-03T15:47:30Z">
-      <class name="restapi.automation.testcases.GetRequest">
-        <test-method status="PASS" signature="setUpTestConfigs()[pri:0, instance:restapi.automation.testcases.GetRequest@5e5792a0]" name="setUpTestConfigs" is-config="true" duration-ms="1009" started-at="2020-01-03T21:17:27Z" finished-at="2020-01-03T21:17:28Z">
+    <test name="Default test" duration-ms="3881" started-at="2020-01-03T19:41:35Z" finished-at="2020-01-03T19:41:39Z">
+      <class name="restapi.automation.testcases.GetJSONRequest">
+        <test-method status="PASS" signature="setUpTestConfigs()[pri:0, instance:restapi.automation.testcases.GetJSONRequest@5e5792a0]" name="setUpTestConfigs" is-config="true" duration-ms="951" started-at="2020-01-04T01:11:35Z" finished-at="2020-01-04T01:11:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTestConfigs -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:restapi.automation.testcases.GetRequest@5e5792a0]" name="setUp" is-config="true" duration-ms="127" started-at="2020-01-03T21:17:28Z" finished-at="2020-01-03T21:17:28Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:restapi.automation.testcases.GetJSONRequest@5e5792a0]" name="setUp" is-config="true" duration-ms="117" started-at="2020-01-04T01:11:36Z" finished-at="2020-01-04T01:11:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testGetRequest(java.util.Map)[pri:0, instance:restapi.automation.testcases.GetRequest@5e5792a0]" name="testGetRequest" duration-ms="2406" started-at="2020-01-03T21:17:28Z" data-provider="GetRequest" finished-at="2020-01-03T21:17:30Z">
+        <test-method status="PASS" signature="testGetRequest(java.util.Map)[pri:0, instance:restapi.automation.testcases.GetJSONRequest@5e5792a0]" name="testGetRequest" duration-ms="2760" started-at="2020-01-04T01:11:36Z" data-provider="GetRequest" finished-at="2020-01-04T01:11:39Z">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRequest -->
-      </class> <!-- restapi.automation.testcases.GetRequest -->
+      </class> <!-- restapi.automation.testcases.GetJSONRequest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

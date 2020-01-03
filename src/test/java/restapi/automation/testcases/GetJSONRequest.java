@@ -25,17 +25,17 @@ import restapi.automation.reports.ExtentReportTestManager;
  * Hello world!
  *
  */
-public class GetRequest extends BaseTest {
+public class GetJSONRequest extends BaseTest {
 	
 	
 	@BeforeClass
 	public void setUp() {
-		test=ExtentReportTestManager.createTest("Get Request", "Test to create the test for GET METHOD");
+		test=ExtentReportTestManager.createTest("Get JSON Request", "Test to create the test for GET METHOD");
 	}
 
 	@Test(dataProvider = "GetRequest")
 	public void testGetRequest(Map<String, String> map) {
-		test.log(Status.INFO, "Get request for :"+System.getProperty("baseURI"));
+		test.log(Status.INFO, "Get JSON request for :"+System.getProperty("jsonBaseURI"));
 		Response response = RestAssured.given().headers("Content-Type", "application/json").body("").when()
 				.get(map.get("path")).then().log().all().extract().response();
 		
