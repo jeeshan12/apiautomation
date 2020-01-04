@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="restapi.automation.testcases.GetRequest"/>
+      <class name="restapi.automation.testcases.GetJSONRequest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
