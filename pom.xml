@@ -15,7 +15,7 @@
 		<testng.version>6.14.3</testng.version>
 		<commons.lang.version>3.0</commons.lang.version>
 		<jayway.version>2.4.0</jayway.version>
-		<log4j-api.version>2.7</log4j-api.version>
+		<log4j-api.version>2.17.1</log4j-api.version>
 		<rest-assured.version>3.1.0</rest-assured.version>
 		<rest-assured-json-path.version>3.1.0</rest-assured-json-path.version>
 		<rest-assured-xml-path.version>3.1.0</rest-assured-xml-path.version>
